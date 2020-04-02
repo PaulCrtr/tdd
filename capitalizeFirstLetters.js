@@ -1,4 +1,6 @@
-function capitalizeFirstLetters() {}
+function capitalizeFirstLetters(str) {
+    return str.split(' ').map(x=>x[0].toLowerCase())
+}
 
 
 const assert = require('assert')
